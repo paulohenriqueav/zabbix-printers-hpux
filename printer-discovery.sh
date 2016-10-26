@@ -3,7 +3,6 @@
 #Update Date: 24/10/2016
 #Version: 1.0
 #This script automatically creates items for print spooling monitoring by ZABBIX of each printer installed on HP-UX system.
-#########################################
 
 i=1
 linha=$(lpstat -a | awk '{print $1}' | wc -l)
